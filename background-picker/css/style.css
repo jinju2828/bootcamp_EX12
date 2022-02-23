@@ -1,0 +1,95 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  text-align: center;
+}
+
+/*h1, h2{*/
+/*  text-align: center;*/
+/*}*/
+img{
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+}
+
+ul{
+  width: 1000px;
+  /*height: 200px;*/
+  /*border: 3px solid black;*/
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+li{
+  /*max-width: 100%;*/
+  width: 100px;
+  height: 100px;
+  flex: 1 1 20%;
+  padding-top: 40px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#rebeccapurple {
+  background: rebeccapurple;
+  color: rebeccapurple;
+}
+
+#green {
+  background: green;
+  color: green;
+}
+#blue {
+  background: blue;
+  color: blue;
+}
+
+#hotpink {
+  background: hotpink;
+  color: hotpink;
+}
+
+#yellow {
+  background: yellow;
+  color: yellow;
+}
+
+#darkorange {
+  background: darkorange;
+  color: darkorange;
+}
+
+#skyblue {
+  background: skyblue;
+  color: skyblue;
+}
+
+#gray {
+  background: gray;
+  color: gray;
+}
+
+#reset {
+  margin-top: 50px;
+  width: 100px;
+  padding: 20px;
+  background: mediumvioletred;
+  text-align: center;
+}
